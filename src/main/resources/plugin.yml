@@ -1,0 +1,8 @@
+name: FarmAdvanced
+description: $description
+version: '${version}'
+
+main: dev.tdmnhat.plugin.spigot.FarmAdvanced
+api-version: '26.1'
+
+authors: [ tdminhnhat ]
