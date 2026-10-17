@@ -6,3 +6,20 @@ main: dev.tdmnhat.plugin.spigot.FarmAdvanced
 api-version: '26.1'
 
 authors: [ tdminhnhat ]
+
+commands:
+  farmadvanced:
+    description: show all the commands in this plugin
+    permission: farmadvanced.command.help
+    usage: /<command> help
+
+permissions:
+  farmadvanced.command.*:
+    description: access all the commands
+    default: op
+    children:
+      farmadvanced.command.help: true
+  farmadvanced.command.help:
+    description: allow the player access the help command to see all commands
+    default: not op
+

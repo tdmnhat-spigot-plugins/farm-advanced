@@ -1,0 +1,22 @@
+#####################################
+#                                   #
+#           Farm Advanced           #
+#                                   #
+#####################################
+
+# Farm Advanced is a plugin which supports the user in their harvest. This plugin's created by @tdminhnhat
+
+# This file config is combine for configuring the messages and setup some options. About the configuration the messages that you can add your customize color to make more lively and colorful
+# The configuration about the setup some options that you have to read carefully the describes of the line to ensure that you don't break any configure rules
+
+# Prefix plugin - this will appear each of messages has sent to receiver.
+prefix-plugin: "&e[&aFarm Advanced&e]"
+
+# Send a sender a message if they are acting without permission.
+no-permissions: "You don't have permission to execute this action"
+
+# If the sender executes the invalid command, send them a message
+command-not-exist: "This command is not existed. Please use /farmadvanced to see all commands"
+
+# If you want the player can be able to break others player's machine, let set it "true". Default "false", the player can't be able to break others, they can break their machines.
+break-other-machines: false
